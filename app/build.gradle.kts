@@ -17,7 +17,7 @@ android {
     defaultConfig {
         applicationId = "com.a2511500082.myapplication"
         minSdk = 24
-        targetSdk = 37
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -59,8 +59,8 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 
     //Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-corotines-android:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 
     //Lifecycle
-    implementation("androidx.lifecycle-routime-ktx:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
 }

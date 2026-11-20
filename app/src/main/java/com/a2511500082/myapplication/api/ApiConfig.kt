@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit
 object ApiConfig {
     // BASE_URL sesuaikan dengan server masing-masing.
     // Untuk emulator Android gunakan 10.0.2.2
-    private const val BASE_URL = "http://localhost/pdcs/projek_tes/pdcs_pertemuan2/api/mahasiswa.php"
+    private const val BASE_URL = "http://10.0.2.2/pdcs/projek_tes/pdcs_pertemuan2/api/"
 
     fun getApiService(): ApiInterface {
         val loggingInterceptor = HttpLoggingInterceptor().apply {
