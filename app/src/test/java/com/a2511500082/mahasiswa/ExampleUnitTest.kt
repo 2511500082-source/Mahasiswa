@@ -1,4 +1,4 @@
-package com.a2511500082.myapplication
+package com.a2511500082.mahasiswa
 
 import org.junit.Test
 

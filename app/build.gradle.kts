@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.a2511500082.myapplication"
+    namespace = "com.a2511500082.mahasiswa"
     compileSdk {
         version = release(37)
     }
@@ -15,7 +15,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.a2511500082.myapplication"
+        applicationId = "com.a2511500082.mahasiswa"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -39,6 +39,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)

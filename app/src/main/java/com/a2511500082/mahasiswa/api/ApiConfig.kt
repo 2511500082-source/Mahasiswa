@@ -1,4 +1,4 @@
-package com.a2511500082.myapplication.api
+package com.a2511500082.mahasiswa.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

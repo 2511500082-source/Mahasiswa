@@ -1,4 +1,4 @@
-package com.a2511500082.myapplication
+package com.a2511500082.mahasiswa
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
